@@ -20,19 +20,24 @@
     "**/.git": true,
     ".vscode": true,
     ".bundle": true,
-    ".*": false,
-    "*.ru": false,
+    ".gitignore": false,
+    ".gitpod.yml": false,
+    ".rspec": false,
+    ".devcontainer/": false,
+    "config.ru": false,
     "Dockerfile": false,
-    "Gem*": false,
-    "install-packages": true,
-    "main.rb": true,
+    "Gemfile": false,
+    "Gemfile.lock": false,
+    "tmp/": false,
+    "install-packages": false,
+    "main.rb": false,
     "README.md": false,
     "app.rb": false,
     "environment.rb": false,
     "bin/": false,
     "spec/": false,
-    "examples.txt": true,
-    "tmp/": true
+    "examples.txt": false,
+    "config/": false
   },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -63,5 +68,5 @@
   },
   "files.associations": {
     "*.html.erb": "erb"
-  },
+  }
 }
